@@ -1,4 +1,4 @@
-# 🏃‍♂️ AltitudePace — Biomechanical Marathon Telemetry Engine (`altitude-pace`)
+# 🏃‍♂️ AltitudePace: Biomechanical Marathon Telemetry Engine (`altitude-pace`)
 [![Build Status](https://github.com/jamesruga/altitude-pace/actions/workflows/telemetry.yml/badge.svg)](https://github.com/jamesruga/altitude-pace/actions)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Folium](https://img.shields.io/badge/Maps-Folium%2FLeaflet-green.svg)
@@ -47,4 +47,4 @@ PYTHONPATH=. python src/visualize.py
 ```
 ---
 ## 📜 License
-Distributed under the MIT License. See `LICENSE` for details.
+Distributed under the MIT License. See LICENSE for details.
