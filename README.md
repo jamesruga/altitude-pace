@@ -54,9 +54,16 @@ Below is the dynamic biomechanical telemetry distribution profile across race se
 
 ---
 
+## 🌐 Live Map Deployment
+
+View the interactive race strategy map online via GitHub Pages:
+👉 **[https://jamesruga.github.io/altitude-pace/](https://jamesruga.github.io/altitude-pace/)**
+
+---
+
 ## 🛠 Local Quickstart & Testing
 
-\```bash
+```bash
 # Clone repository & install dependencies
 git clone [https://github.com/jamesruga/altitude-pace.git](https://github.com/jamesruga/altitude-pace.git)
 cd altitude-pace
@@ -68,7 +75,7 @@ PYTHONPATH=. pytest -v
 # Generate telemetry and render map
 python src/dataset.py
 PYTHONPATH=. python src/visualize.py
-\```
+```
 
 ---
 
