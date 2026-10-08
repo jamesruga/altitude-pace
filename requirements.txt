@@ -1,0 +1,5 @@
+gpxpy
+pandas
+numpy
+folium
+pytest
