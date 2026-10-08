@@ -11,9 +11,7 @@ High-altitude training creates unique physiological pacing dynamics. When long-d
 ---
 ## 📊 Telemetry & Fatigue Profile Visualization
 Below is the dynamic biomechanical telemetry distribution profile across race segments computed automatically via the AltitudePace CI/CD pipeline:
-<p align="center">
-  <img src="docs/telemetry_chart.png" alt="AltitudePace Telemetry Chart" width="100%" />
-</p>
+![AltitudePace Telemetry Chart](docs/telemetry_chart.png)
 
 | Metric Category | Telemetry Share | Physiological Status | Risk Level |
 | :--- | :--- | :--- | :--- |
@@ -31,7 +29,7 @@ Below is the dynamic biomechanical telemetry distribution profile across race se
 ---
 ## 🌐 Live Interactive Map
 Access the live interactive Folium map on GitHub Pages:
-👉 https://jamesruga.github.io/altitude-pace/
+👉 [https://jamesruga.github.io/altitude-pace/](https://jamesruga.github.io/altitude-pace/)
 ---
 ## 🛠 Local Quickstart & Testing
 ```bash
