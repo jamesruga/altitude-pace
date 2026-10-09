@@ -25,8 +25,11 @@ Below is the dynamic biomechanical telemetry distribution profile across race se
 - Quality Assurance: pytest unit test suite
 - CI/CD Automation: GitHub Actions scheduled cloud execution with GitHub Pages map deployment
 ## 🌐 Live Interactive Map
-Access the live interactive Folium map on GitHub Pages:
-👉 https://jamesruga.github.io/altitude-pace/
+
+![AltitudePace Strategy Map Preview](docs/map_preview.png)
+
+Access the live interactive Folium map on GitHub Pages: 👉
+https://jamesruga.github.io/altitude-pace/
 ## 🛠 Local Quickstart & Testing
 ```bash
 # Clone repository & install dependencies
