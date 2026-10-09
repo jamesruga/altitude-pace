@@ -29,7 +29,7 @@ Below is the dynamic biomechanical telemetry distribution profile across race se
 ---
 ## 🌐 Live Interactive Map
 Access the live interactive Folium map on GitHub Pages:
-👉 [https://jamesruga.github.io/altitude-pace/](https://jamesruga.github.io/altitude-pace/)
+👉 https://jamesruga.github.io/altitude-pace/
 ---
 ## 🛠 Local Quickstart & Testing
 ```bash
