@@ -46,7 +46,7 @@ def generate_visualizations():
     plt.close()
 
     # 2. Generate Interactive Folium Strategy Map
-    m = folium.Map(location=[-0.5142, 35.2698], zoom_start=12, tiles='CartoDB dark_matter')
+    m = folium.Map(location=[-0.5142, 35.2698], zoom_start=12, tiles="OpenStreetMap")
     folium.Marker(
         [-0.5142, 35.2698], 
         popup="AltitudePace Start Point (Eldoret)", 
