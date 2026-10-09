@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_efc79876873c8d209f4fab173525c348 {
+                #map_bf4f108a3fe1142e25ba8decaeb48975 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,19 +54,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_efc79876873c8d209f4fab173525c348" ></div>
+            <div class="folium-map" id="map_bf4f108a3fe1142e25ba8decaeb48975" ></div>
         
 </body>
 <script>
     
     
-            var map_efc79876873c8d209f4fab173525c348 = L.map(
-                "map_efc79876873c8d209f4fab173525c348",
+            var map_bf4f108a3fe1142e25ba8decaeb48975 = L.map(
+                "map_bf4f108a3fe1142e25ba8decaeb48975",
                 {
-                    center: [-0.5142, 35.2698],
+                    center: [0.5942999999999999, 35.389799999999994],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 12,
+  "zoom": 11,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_35f0a6c514570276431b27028f8c00c7 = L.tileLayer(
+            var tile_layer_7f993088660e582c8ed07e77261a6949 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,17 +95,109 @@
             );
         
     
-            tile_layer_35f0a6c514570276431b27028f8c00c7.addTo(map_efc79876873c8d209f4fab173525c348);
+            tile_layer_7f993088660e582c8ed07e77261a6949.addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
         
     
-            var marker_f9ae09050936a7fd1e6bfa2254316b94 = L.marker(
-                [-0.5142, 35.2698],
+            var poly_line_714188b7901d224f61459951b18281e6 = L.polyline(
+                [[0.5143, 35.2698], [0.55, 35.31]],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2ecc71", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+        var popup_b6b85de11b23398a13b59c9de4b69b2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0da07f14ea22c3c01fac3a09aeb0ad5f = $(`<div id="html_0da07f14ea22c3c01fac3a09aeb0ad5f" style="width: 100.0%; height: 100.0%;">Segment 1: Eldoret Start (2,090m) ➔ 5K Split - Chepkoilel</div>`)[0];
+                popup_b6b85de11b23398a13b59c9de4b69b2e.setContent(html_0da07f14ea22c3c01fac3a09aeb0ad5f);
+            
+        
+
+        poly_line_714188b7901d224f61459951b18281e6.bindPopup(popup_b6b85de11b23398a13b59c9de4b69b2e)
+        ;
+
+        
+    
+    
+            var poly_line_4dd01eb9b4d008679e9d275c4b0a1075 = L.polyline(
+                [[0.55, 35.31], [0.6, 35.38]],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e67e22", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+        var popup_3a6e5986c2d5010ba7e8ee4cff9fda95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9654357d8022a55b034b412195afcd5 = $(`<div id="html_b9654357d8022a55b034b412195afcd5" style="width: 100.0%; height: 100.0%;">Segment 2: 5K Split - Chepkoilel ➔ 12K Split - Moiben Junction</div>`)[0];
+                popup_3a6e5986c2d5010ba7e8ee4cff9fda95.setContent(html_b9654357d8022a55b034b412195afcd5);
+            
+        
+
+        poly_line_4dd01eb9b4d008679e9d275c4b0a1075.bindPopup(popup_3a6e5986c2d5010ba7e8ee4cff9fda95)
+        ;
+
+        
+    
+    
+            var poly_line_c3de589c657dffbeb1371112f2fd8bc4 = L.polyline(
+                [[0.6, 35.38], [0.65, 35.45]],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e74c3c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+        var popup_d9bd799f21fea2fb7a4477ea7537c605 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fd9d1d084c94b17f084b47b8e84847b = $(`<div id="html_8fd9d1d084c94b17f084b47b8e84847b" style="width: 100.0%; height: 100.0%;">Segment 3: 12K Split - Moiben Junction ➔ 18K Split - Sergoit Ascent</div>`)[0];
+                popup_d9bd799f21fea2fb7a4477ea7537c605.setContent(html_8fd9d1d084c94b17f084b47b8e84847b);
+            
+        
+
+        poly_line_c3de589c657dffbeb1371112f2fd8bc4.bindPopup(popup_d9bd799f21fea2fb7a4477ea7537c605)
+        ;
+
+        
+    
+    
+            var poly_line_203bb70aeb548ba5a32d48a510d08e51 = L.polyline(
+                [[0.65, 35.45], [0.6783, 35.5083]],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2ecc71", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+        var popup_0195919b0cb83e39e2b46a86b8e1ee3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50a372495d2a16bc2cb8701cbeda2e53 = $(`<div id="html_50a372495d2a16bc2cb8701cbeda2e53" style="width: 100.0%; height: 100.0%;">Segment 4: 18K Split - Sergoit Ascent ➔ Iten Finish - High Altitude Camp (2,400m)</div>`)[0];
+                popup_0195919b0cb83e39e2b46a86b8e1ee3a.setContent(html_50a372495d2a16bc2cb8701cbeda2e53);
+            
+        
+
+        poly_line_203bb70aeb548ba5a32d48a510d08e51.bindPopup(popup_0195919b0cb83e39e2b46a86b8e1ee3a)
+        ;
+
+        
+    
+    
+            var marker_1d3db6b63ccc64959a6bd85090b819ef = L.marker(
+                [0.5143, 35.2698],
                 {
 }
-            ).addTo(map_efc79876873c8d209f4fab173525c348);
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
         
     
-            var icon_5b0f025995a86acf3587f4364f164bc0 = L.AwesomeMarkers.icon(
+            var icon_ec61fcae4fe4aac93d408253ed9b6c0a = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -116,24 +208,226 @@
             );
         
     
-        var popup_874038fe38eee1f46dc0f6b7342d8d8b = L.popup({
-  "maxWidth": "100%",
+        var popup_3ab008c931f308036b5510d9177a1513 = L.popup({
+  "maxWidth": 250,
 });
 
         
             
-                var html_623b7be99841debe127f5474c99d842d = $(`<div id="html_623b7be99841debe127f5474c99d842d" style="width: 100.0%; height: 100.0%;">AltitudePace Start Point (Eldoret)</div>`)[0];
-                popup_874038fe38eee1f46dc0f6b7342d8d8b.setContent(html_623b7be99841debe127f5474c99d842d);
+                var html_284dbfa6295d6f5cf775f8e14ee8f3b1 = $(`<div id="html_284dbfa6295d6f5cf775f8e14ee8f3b1" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; min-width: 180px;">             <h4 style="margin: 0 0 5px 0; color: #2c3e50;">Eldoret Start (2,090m)</h4>             <hr style="margin: 5px 0; border: 0.5px solid #ccc;">             <b>GAP Pace:</b> 3:10 min/km<br>             <b>HR Drift Decay:</b> +0.5%<br>             <b>Status:</b> <span style="color: #2ecc71; font-weight: bold;">Optimal</span>         </div>         </div>`)[0];
+                popup_3ab008c931f308036b5510d9177a1513.setContent(html_284dbfa6295d6f5cf775f8e14ee8f3b1);
             
         
 
-        marker_f9ae09050936a7fd1e6bfa2254316b94.bindPopup(popup_874038fe38eee1f46dc0f6b7342d8d8b)
+        marker_1d3db6b63ccc64959a6bd85090b819ef.bindPopup(popup_3ab008c931f308036b5510d9177a1513)
         ;
 
         
     
     
-                marker_f9ae09050936a7fd1e6bfa2254316b94.setIcon(icon_5b0f025995a86acf3587f4364f164bc0);
+            marker_1d3db6b63ccc64959a6bd85090b819ef.bindTooltip(
+                `<div>
+                     Eldoret Start (2,090m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d3db6b63ccc64959a6bd85090b819ef.setIcon(icon_ec61fcae4fe4aac93d408253ed9b6c0a);
+            
+    
+            var marker_2c9c49daeb717d823285f21d763e6a8c = L.marker(
+                [0.55, 35.31],
+                {
+}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+            var icon_80c4d5c0495ded65dda71aab1edd3f94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_009c6a0926a1511f87d353bdc4be6e76 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_578ee7cf3a5b69fcb8187a5492fca6b7 = $(`<div id="html_578ee7cf3a5b69fcb8187a5492fca6b7" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; min-width: 180px;">             <h4 style="margin: 0 0 5px 0; color: #2c3e50;">5K Split - Chepkoilel</h4>             <hr style="margin: 5px 0; border: 0.5px solid #ccc;">             <b>GAP Pace:</b> 3:12 min/km<br>             <b>HR Drift Decay:</b> +1.2%<br>             <b>Status:</b> <span style="color: #2ecc71; font-weight: bold;">Optimal</span>         </div>         </div>`)[0];
+                popup_009c6a0926a1511f87d353bdc4be6e76.setContent(html_578ee7cf3a5b69fcb8187a5492fca6b7);
+            
+        
+
+        marker_2c9c49daeb717d823285f21d763e6a8c.bindPopup(popup_009c6a0926a1511f87d353bdc4be6e76)
+        ;
+
+        
+    
+    
+            marker_2c9c49daeb717d823285f21d763e6a8c.bindTooltip(
+                `<div>
+                     5K Split - Chepkoilel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2c9c49daeb717d823285f21d763e6a8c.setIcon(icon_80c4d5c0495ded65dda71aab1edd3f94);
+            
+    
+            var marker_19f99e284d950ca6f7f77c9e437ad09f = L.marker(
+                [0.6, 35.38],
+                {
+}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+            var icon_aec687cde72432c524f936465f7b15b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d26da049ad7596e15c3584eb3179e7f0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9cc543c0f4c6e2b526ec731a05c3d06a = $(`<div id="html_9cc543c0f4c6e2b526ec731a05c3d06a" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; min-width: 180px;">             <h4 style="margin: 0 0 5px 0; color: #2c3e50;">12K Split - Moiben Junction</h4>             <hr style="margin: 5px 0; border: 0.5px solid #ccc;">             <b>GAP Pace:</b> 3:18 min/km<br>             <b>HR Drift Decay:</b> +3.4%<br>             <b>Status:</b> <span style="color: #e67e22; font-weight: bold;">Moderate Fatigue</span>         </div>         </div>`)[0];
+                popup_d26da049ad7596e15c3584eb3179e7f0.setContent(html_9cc543c0f4c6e2b526ec731a05c3d06a);
+            
+        
+
+        marker_19f99e284d950ca6f7f77c9e437ad09f.bindPopup(popup_d26da049ad7596e15c3584eb3179e7f0)
+        ;
+
+        
+    
+    
+            marker_19f99e284d950ca6f7f77c9e437ad09f.bindTooltip(
+                `<div>
+                     12K Split - Moiben Junction
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_19f99e284d950ca6f7f77c9e437ad09f.setIcon(icon_aec687cde72432c524f936465f7b15b3);
+            
+    
+            var marker_9b53d4e0d3c180de6e8cfe019d990d39 = L.marker(
+                [0.65, 35.45],
+                {
+}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+            var icon_dee6bdaf3496e0e514704ddce87816e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf12736076bb6a1a6a5b6954c7721d2c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_11d716fada8017bcf7f7205e807e2b78 = $(`<div id="html_11d716fada8017bcf7f7205e807e2b78" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; min-width: 180px;">             <h4 style="margin: 0 0 5px 0; color: #2c3e50;">18K Split - Sergoit Ascent</h4>             <hr style="margin: 5px 0; border: 0.5px solid #ccc;">             <b>GAP Pace:</b> 3:28 min/km<br>             <b>HR Drift Decay:</b> +6.8%<br>             <b>Status:</b> <span style="color: #e74c3c; font-weight: bold;">High Fatigue Risk</span>         </div>         </div>`)[0];
+                popup_cf12736076bb6a1a6a5b6954c7721d2c.setContent(html_11d716fada8017bcf7f7205e807e2b78);
+            
+        
+
+        marker_9b53d4e0d3c180de6e8cfe019d990d39.bindPopup(popup_cf12736076bb6a1a6a5b6954c7721d2c)
+        ;
+
+        
+    
+    
+            marker_9b53d4e0d3c180de6e8cfe019d990d39.bindTooltip(
+                `<div>
+                     18K Split - Sergoit Ascent
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b53d4e0d3c180de6e8cfe019d990d39.setIcon(icon_dee6bdaf3496e0e514704ddce87816e5);
+            
+    
+            var marker_0f7e0217fd7482e60bfc1716e2169bca = L.marker(
+                [0.6783, 35.5083],
+                {
+}
+            ).addTo(map_bf4f108a3fe1142e25ba8decaeb48975);
+        
+    
+            var icon_76b1ecfcb9eddc9744142a6b108a7cce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66e7942612fd07ec839ac283f6dc01e5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9abf57bc6dd09e73dedf0d903b1a9e17 = $(`<div id="html_9abf57bc6dd09e73dedf0d903b1a9e17" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial, sans-serif; min-width: 180px;">             <h4 style="margin: 0 0 5px 0; color: #2c3e50;">Iten Finish - High Altitude Camp (2,400m)</h4>             <hr style="margin: 5px 0; border: 0.5px solid #ccc;">             <b>GAP Pace:</b> 3:15 min/km<br>             <b>HR Drift Decay:</b> +4.1%<br>             <b>Status:</b> <span style="color: #2ecc71; font-weight: bold;">Optimal Recovery</span>         </div>         </div>`)[0];
+                popup_66e7942612fd07ec839ac283f6dc01e5.setContent(html_9abf57bc6dd09e73dedf0d903b1a9e17);
+            
+        
+
+        marker_0f7e0217fd7482e60bfc1716e2169bca.bindPopup(popup_66e7942612fd07ec839ac283f6dc01e5)
+        ;
+
+        
+    
+    
+            marker_0f7e0217fd7482e60bfc1716e2169bca.bindTooltip(
+                `<div>
+                     Iten Finish - High Altitude Camp (2,400m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f7e0217fd7482e60bfc1716e2169bca.setIcon(icon_76b1ecfcb9eddc9744142a6b108a7cce);
             
 </script>
 </html>
