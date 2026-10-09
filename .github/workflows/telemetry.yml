@@ -25,7 +25,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install folium matplotlib numpy pytest
+          pip install folium matplotlib numpy pandas pytest
 
       - name: Run Pytest Validation Suite
         run: |
